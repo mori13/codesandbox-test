@@ -18,14 +18,23 @@
 
 //constは再宣言上書き不可
 //constでオブジェクトはプロパティの変更が可能
-const val4 = {
-  name: "mori",
-  age: 33
-};
-val4.addres = "hirosima";
-console.log(val4);
+// const val4 = {
+//   name: "mori",
+//   age: 33
+// };
+// val4.addres = "hirosima";
+// console.log(val4);
 
-//constでオブジェクトはプロパティの変更が可能
-const val5 = ["dog", "cat"];
-val5.push("monkey");
-console.log(val5);
+// //constでオブジェクトはプロパティの変更が可能
+// const val5 = ["dog", "cat"];
+// val5.push("monkey");
+// console.log(val5);
+
+const name = "mori";
+const age = 33;
+
+// const message = "私の名前は" + name + "です";
+// console.log(message);
+
+const message2 = `私の名前は${name}です。年齢は${age}です`;
+console.log(message2);
