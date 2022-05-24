@@ -1,10 +1,31 @@
-import "./styles.css";
+// var val = "(変数";
+// console.log(val);
 
-document.getElementById("app").innerHTML = `
-<h1>Hello Vanilla!</h1>
-<div>
-  We use the same configuration as Parcel to bundle this sandbox, you can find more
-  info about Parcel 
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-</div>
-`;
+// //var変数は上書き可能
+// val = "uwagakikanou";
+// console.log(val);
+
+// //再宣言可能
+// var val = "再宣言";
+// console.log(val);
+
+// let val2 = "let変数";
+// console.log(val2);
+// //let1は上書き可能
+// val2 = "上書き確認";
+// console.log(val2);
+// //letは再宣言不可
+
+//constは再宣言上書き不可
+//constでオブジェクトはプロパティの変更が可能
+const val4 = {
+  name: "mori",
+  age: 33
+};
+val4.addres = "hirosima";
+console.log(val4);
+
+//constでオブジェクトはプロパティの変更が可能
+const val5 = ["dog", "cat"];
+val5.push("monkey");
+console.log(val5);
