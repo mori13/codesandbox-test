@@ -30,11 +30,42 @@
 // val5.push("monkey");
 // console.log(val5);
 
-const name = "mori";
-const age = 33;
+// const name = "mori";
+// const age = 33;
 
-// const message = "私の名前は" + name + "です";
-// console.log(message);
+// // const message = "私の名前は" + name + "です";
+// // console.log(message);
 
-const message2 = `私の名前は${name}です。年齢は${age}です`;
-console.log(message2);
+// const message2 = `私の名前は${name}です。年齢は${age}です`;
+// console.log(message2);
+
+// function func1(str) {
+//   return str;
+// }
+// const func1 = function (str) {
+//   return str;
+// };
+
+//
+
+// const func3 =(num1, num2) => {
+//   return num1 + num2;
+// // }
+// const func3 = (num1, num2) => num1 + num2;
+
+// console.log(func3(10, 20));
+
+// 分割代入
+// const myprofile = {
+//   name: "mori",
+//   age: 33
+// };
+
+// const { name, age } = myprofile;
+// const message1 = `名前は${name}です。年齢は${age}です。`;
+// console.log(message1);
+
+const myprofile = ["momo", 33];
+
+const message3 = `名前は${myprofile[0]}です。年齢は${myprofile[1]}です`;
+console.log(message3);
