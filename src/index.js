@@ -69,3 +69,10 @@ const myprofile = ["momo", 33];
 
 const message3 = `名前は${myprofile[0]}です。年齢は${myprofile[1]}です`;
 console.log(message3);
+
+//デフォルト値、引数
+
+const sayhello = (namae = "momomo") => console.log(`こんにちは${namae}さん`);
+sayhello();
+
+//スプレッド構文　...
